@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="divCentral">
+        <div class="divTexto">
+            <h1 class="textoPrincipal">Cadastro</h1>
+            <h3 class="textoSecundario">Com esse cadastro, você terá <br> muito mais interação</h3>
+            <h3 class="textoSecundario">e facilidade para pedir e encontrar <br> nossos produtos!</h3>
+        </div>
+        <div class="divFormulario">
+            <br><br>
+            <div class="formularioInputs">
+                <div class="caixaInput_1">
+                    <label for="">Nome: </label> &MediumSpace; &MediumSpace;
+                    <input placeholder="Digite seu nome" type="text" id="nome" required autocomplete="off">
+                    <br>
+                    <label for="">Idade:</label>
+                    <input placeholder="Digite sua idade" type="number" id="idade" required autocomplete="off">
+                    <br>
+                    <label for="">E-mail:</label>
+                    <input placeholder="Digite seu email" type="text" id="email" autocomplete="off" required>
+                    <br>
+                    <label for="">Telefone:</label>
+                    <input placeholder="Digite seu telefone" type="number" id="telefone" required autocomplete="off">
+                    <br>
+                </div>
+                <div class="caixaInput_2">
+                    <label for="">CEP:</label>
+                    <input placeholder="Digite seu CEP" type="text" id="cep" required autocomplete="off">
+                    <br>
+                    <label for="">Cidade:</label>
+                    <input placeholder="Digite sua cidade" type="text" readonly id="cidade" autocomplete="off">
+                    <br>
+                    <label for="">Rua:</label>
+                    <input placeholder="Digite sua rua" type="text" readonly id="rua" autocomplete="off">
+                    <br>
+                    <label for="">Bairro:</label>
+                    <input placeholder="Digite seu bairro"type="text" readonly id="bairro" autocomplete="off">
+                    <br>
+                </div>
+
+
+            </div>
+            <button id="botaoEnviar" onclick="enviarFormulario()">Enviar</button>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
